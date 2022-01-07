@@ -224,7 +224,7 @@
 
 /* Header Extra */
 #header.sticky{
-	background:silver;
+	background:#000;
 	-webkit-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.30);
 	-moz-box-shadow:0px 0px 4px rgba(0, 0, 0, 0.30);
 	box-shadow:0px 0px 4px rgba(0, 0, 0, 0.30);
@@ -726,12 +726,18 @@
     Portfolio CSS
 =========================*/
 #portfolio {
-	background: silver;
+	background: #000;
 	overflow: hidden;
 }
 #portfolio .container-fluid{
 	padding:0;
 }
+#portfolio .container-fluid h1{
+color:silver;
+}
+#portfolio .container-fluid p{
+	color:silver;
+	}
 #portfolio .row.stylex {
 	margin: 0;
 }
@@ -1119,7 +1125,7 @@
 	Timeline CSS
 =========================*/
 #my-timeline{
-	background:silver;
+	background:black;
 }
 #my-timeline .section-title{
 	margin-bottom:50px;
@@ -1156,6 +1162,12 @@
 	-webkit-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
 	-moz-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
 	box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
+}
+#my-timeline .single-timeline .single-content h2{
+color: silver;
+}
+#my-timeline h1{
+	color: silver;
 }
 #my-timeline .single-main:nth-child(2n) .single-timeline .single-content {
 	margin-left: 50.4%;
