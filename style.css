@@ -1126,7 +1126,7 @@ color:silver;
 	Timeline CSS
 =========================*/
 #my-timeline{
-	background:black;
+	background:#000;
 }
 #my-timeline .section-title{
 	margin-bottom:50px;
@@ -1163,6 +1163,9 @@ color:silver;
 	-webkit-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
 	-moz-box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
 	box-shadow: 1px 1px 6px rgba(20, 20, 20, 0.4);
+}
+#my-timeline .single-timeline .single-content p{
+color: silver;
 }
 #my-timeline .single-timeline .single-content h2{
 color: silver;
