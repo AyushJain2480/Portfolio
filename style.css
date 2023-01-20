@@ -1380,36 +1380,6 @@ color:silver;
   End Contact
 =========================*/
 
-/*=======================
-  Clients CSS
-=========================*/
-#clients.section {
-	padding: 150px 0 150px;
-	margin-top: 250px;
-	background: #F8F8F8;
-	border-top: 3px solid;
-	background: url('images/back1.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-	background-attachment: fixed;
-}
-#clients::before {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: #000;
-	opacity: 0.8;
-	content: "";
-}
-#clients.style2{
-	padding:80px 0;
-}
-/*=======================
-  End Clients
-=========================*/
 
 /*=======================
   Footer CSS
@@ -1418,7 +1388,9 @@ color:silver;
 	background: #333;
 	padding:  0 10px;
 	text-align: center;
-	position: relative;
+	position: absolute; 
+	bottom: 0; 
+	width: 100%
 }
 #footer .arrow a {
 	font-size: 30px;
