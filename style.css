@@ -1388,9 +1388,7 @@ color:silver;
 	background: #333;
 	padding:  0 10px;
 	text-align: center;
-	position: absolute; 
-	bottom: 0; 
-	width: 100%
+	position: relative; 
 }
 #footer .arrow a {
 	font-size: 30px;
