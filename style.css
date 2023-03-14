@@ -352,8 +352,8 @@
 	background-video: url('images/pexels-rostislav-uzunov-9867271.mp4(1)');
 	background-repeat: repeat;
          /* Fallback Image */
-	background-image: url('images/halloween-gfca8927c3_1920.jpg');
-
+/* 	background-image: url('images/halloween-gfca8927c3_1920.jpg');
+ */
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 680px;
