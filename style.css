@@ -349,13 +349,13 @@
 	Personal CSS
 =========================*/  
 #personal-area {
-	background-video: url('hi.mp4');
+	background-video: url('Untitled.mp4');
 	background-repeat: repeat;
          /* Fallback Image */
 /* 	background-image: url('images/halloween-gfca8927c3_1920.jpg');
  */
 	background-size: cover;
-/* 	height: 680px; */
+	height: 680px;
 	position:relative;
 	background-position: center;
 }
