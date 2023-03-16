@@ -349,11 +349,7 @@
 	Personal CSS
 =========================*/  
 #personal-area {
-	background-video: url('Untitled.mp4');
-	background-repeat: repeat;
-         /* Fallback Image */
-/* 	background-image: url('images/halloween-gfca8927c3_1920.jpg');
- */
+	background-image: url('ian-schneider-TamMbr4okv4-unsplash.jpg');
 	background-size: cover;
 	height: 680px;
 	position:relative;
