@@ -349,8 +349,9 @@
 	Personal CSS
 =========================*/  
 #personal-area {
-	background-image: url('android.jpg');
+	background-image: url('images/android.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
 	height: 680px;
 	position:relative;
 	background-position: center;
